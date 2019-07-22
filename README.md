@@ -13,12 +13,9 @@ This is a demo of AWS' SQS with Java
 - Ensure the queue is a `Standard Queue`
 - Make note of the queue name and URL
 
-#### Step 3: Edit the QPublisher and QClient code
-For QPublisher, edit the following: `qpublisher/src/main/java/qpublisher/App.java`
-- On line 19, change `QueueA` to whatever you named your queue
-
-For QClient, edit the following: `qclient/src/main/java/qclient/App.java`
-- On line 17, change `QueueA` to whatever you named your queue
+#### Step 3: Add the Queue URLs 
+- In the SendAndReceive.java file add the Queue specific URLs for Queue A, Queue B, and Queue C
+(line 11, 12, 13)
 
 #### Step 4: Ensure in your terminal environment that `AWS configure` is setup correctly
 - From the command line, run the following:

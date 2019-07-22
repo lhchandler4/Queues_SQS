@@ -5,7 +5,7 @@ package Queues_SQS;
 
 public class App {
     public String getGreeting() {
-        return "Hello world.";
+        return "Yo World.";
     }
 
     public static void main(String[] args) {
