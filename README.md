@@ -2,8 +2,6 @@
 
 This is a demo of AWS' SQS with Java
 
-## Instructions:
-
 #### Step 1: Download Files
 ```
  $ git clone https://github.com/lhchandler4/Queues_SQS.git
